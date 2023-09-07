@@ -12,6 +12,20 @@
     ],
     "web": {
       "bundler": "metro"
+    },
+    "android": {
+      "package": "com.auth"
+    },
+    "ios": {
+      "bundleIdentifier": "com.auth"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3b335fe7-837b-437e-86fc-0df11cddf203"
+      }
     }
   }
 }
