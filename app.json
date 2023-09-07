@@ -2,9 +2,16 @@
   "expo": {
     "name": "auth",
     "slug": "auth",
+    "scheme": "auth",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "plugins": [
+      "expo-router"
+    ],
+    "web": {
+      "bundler": "metro"
+    }
   }
 }
